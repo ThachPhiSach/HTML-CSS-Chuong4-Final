@@ -1,0 +1,113 @@
+/* The styles for the elements */
+  html{
+       
+         background:#ffebcd;
+    }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-left: 8em;
+    margin-right: 4em;
+}
+h1, h2, h3, h4 {
+    color: teal;
+    font-size: 16pt;
+}
+#firstName, #lastName, #email, #dob {
+    float: left;
+    width: 8em;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"] {
+    width: 20em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+#like, #send_email{
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+#contact {
+    float: left;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+input[type="checkbox"] {
+    float: left;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+select {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+
+
+
+
+/* CSS */
+.click-button {
+  align-items: center;
+  appearance: none;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 1px -2px,rgba(0, 0, 0, .14) 0 2px 2px 0,rgba(0, 0, 0, .12) 0 1px 5px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Roboto,sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  height: 25px;
+  justify-content: center;
+  letter-spacing: .0892857em;
+  line-height: normal;
+  min-width: 40px;
+  outline: none;
+  overflow: visible;
+  padding: 0 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  will-change: transform,opacity;
+  margin-bottom: 5px;
+}
+
+.click-button:hover {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
+
+.click-button:disabled {
+  background-color: rgba(0, 0, 0, .12);
+  box-shadow: rgba(0, 0, 0, .2) 0 0 0 0, rgba(0, 0, 0, .14) 0 0 0 0, rgba(0, 0, 0, .12) 0 0 0 0;
+  color: rgba(0, 0, 0, .37);
+  cursor: default;
+  pointer-events: none;
+}
+
+.click-button:not(:disabled) {
+  background-color: #6200ee;
+}
+
+.click-button:focus {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+}
+.click-button:active {
+  box-shadow: rgba(0, 0, 0, .2) 0 5px 5px -3px, rgba(0, 0, 0, .14) 0 8px 10px 1px, rgba(0, 0, 0, .12) 0 3px 14px 2px;
+  background: #A46BF5;
+}
+.click-button a{
+    color:white;
+    text-decoration: none;
+   
+}

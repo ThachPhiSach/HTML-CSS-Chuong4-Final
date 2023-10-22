@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>HTMLCSS Chuong 4 Final</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+    </head>
+    <body>
+        <img src="images/murach.png" alt="Murach Logo" width="100">
+        <h1>Survey</h1>
+        <p>If you have a moment, we'd appreciate it if you would fill out this
+            survey</p>
+        
+        <h2>Your information:</h2>
+        <form action="emailJoin" method="post">
+            <input type="hidden" name="action" value="add">
+            
+            <label id="firstName"><b>First Name:</b></label>
+            <input type="text" name="firstName" required><br>
+            
+            <label id="lastName"><b>Last Name:</b></label>
+            <input type="text" name="lastName" required><br>
+            
+            <label id="email"><b>Email:</b></label>
+            <input type="email" name="email" required><br>
+            
+            <label id="dob"><b>Date of Birth:</b></label>
+            <input type="text" name="birthday" required><br>
+            
+            <h3>How did you hear about us?</h3>
+            <input type="radio" name="about" id="search" value="Search Engine">
+            <label>Search Engine</label>
+            <input type="radio" name="about" id="mouth" value="Word of mouth">
+            <label>Word of mouth</label>
+            <input type="radio" name="about" id="social_media" value="Social Media">
+            <label>Social Media</label>
+            <input type="radio" name="about" id="other" value="Other">
+            <label>Other</label>
+            
+            <h4>Would you like to receive announcements about new CDs and special offers?</h4>
+            <input type="checkbox" name="check" value="YES, I'd like that."> YES, I'd like that.
+            <br>
+            <input type="checkbox" name="check" value="YES, please send me email announcements."> YES, please send me email announcements.
+            <br>
+            <label id="contact">Please contact me by:</label>
+            <select name="contact">
+                <option value="Email or postal mail">Email or postal mail</option>
+                <option value="Phone number">Phone number</option>
+                 <option value="Email">Email only</option>
+                 <option value="Postal Mail">Postal mail only</option>
+            </select>
+            <br>
+            <input type="submit" value="Join Now" class="click-button">
+        </form>
+        <div class="click-button">
+        <a href="#">Back to personal web app</a>
+  
+        </div>
+    </body>
+</html>
